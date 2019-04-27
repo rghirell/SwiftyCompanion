@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - p2.OAuth2 (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - p2.OAuth2 (~> 4.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - p2.OAuth2
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  p2.OAuth2: d5ea9b928fc5d10d088d419db6f3380578b6f866
+
+PODFILE CHECKSUM: 0c680ebd3ff757074e3bbcec4ce3d957d2a40cbd
+
+COCOAPODS: 1.6.1

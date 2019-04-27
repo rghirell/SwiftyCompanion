@@ -26,8 +26,8 @@ class APIController {
         let dispatchGroup = DispatchGroup()
         var result = false
         oauth2 = OAuth2ClientCredentials(settings: [
-            "client_id": "c4f2f9fbfa4402b77c442dfbcb8c69ca4d047ce92bb91b631e8f3abf6ff095ed",
-            "client_secret": "0b834b0534ae6f5bccd77e04c202c8d7230b16b2ad057076ab28911d3833e907",
+            "client_id": "KEY",
+            "client_secret": "KEY",
             "token_uri": "https://api.intra.42.fr/oauth/token",
             ] as OAuth2JSON)
         oauth2.verbose = true

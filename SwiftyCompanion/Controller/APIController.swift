@@ -21,7 +21,7 @@ class APIController {
         let success = self.authorizeUser()
         if !success { return nil }
     }
-
+    
     private func authorizeUser() -> Bool {
         let dispatchGroup = DispatchGroup()
         var result = false
@@ -46,6 +46,7 @@ class APIController {
                 result = false
             }
         }
+        dispatchGroup.wait()
         return result
     }
 }
